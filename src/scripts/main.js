@@ -22,7 +22,7 @@ const printMessage = (message) => {
   messageNode.classList.add('message');
   messageNode.textContent = message;
 
-  root.append(message);
+  root.append(messageNode);
 };
 
 const loginField = document.getElementById('login');
